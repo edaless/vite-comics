@@ -19,10 +19,11 @@ import HelloWorld from './components/HelloWorld.vue'
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-}
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+  &:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
 }
 
 .logo.vue:hover {
