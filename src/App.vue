@@ -16,23 +16,26 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
 
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <div id="container">
-    <header>
+    <Header />
+    <Main />
+    <Footer />
 
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
   </div>
 
 </template>
+
+
+
+
+
+
 
 <style lang="scss" scoped>
 * {
@@ -51,23 +54,8 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
   background-color: yellow;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  width: 100%;
-  height: 10vh;
-  background-color: white;
-}
-
-main {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(7, 102, 255);
-}
-
-footer {
-  width: 100%;
-  height: 480px;
-  background-color: rgb(5, 230, 39);
+  // overflow: scroll;
 }
 </style>
+
+
