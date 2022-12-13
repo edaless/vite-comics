@@ -71,16 +71,15 @@ export default {
 <template>
   <div id="cont">
     <div class="larghezza">
-      <div id="space-between">
-        <div class="logo">
-          <img src="../../public/img/dc-logo.png" alt="">
-        </div>
-        <div id="links">
 
-          <div class="link" v-for="(link, index) in links" :class="{ active: activeLink === index }" :key="index"
-            @click="aggiornoActiveLink(index)">
-            {{ (link.text).toUpperCase() }}
-          </div>
+      <div class="logo">
+        <img src="../../public/img/dc-logo.png" alt="">
+      </div>
+
+      <div id="links">
+        <div class="link" v-for="(link, index) in links" :class="{ active: activeLink === index }" :key="index"
+          @click="aggiornoActiveLink(index)">
+          {{ (link.text).toUpperCase() }}
         </div>
       </div>
 
@@ -93,28 +92,27 @@ $colorheader : white;
 
 
 #cont {
-
+  position: fixed;
   display: flex;
   justify-content: center;
   width: 100%;
-  // height: 10vh;
+  height: var(--h-header);
   background-color: $colorheader;
 }
 
 .logo {
-  height: 100px;
-  padding: 5px;
+  height: 100%;
+  padding: 0 5px;
   display: flex;
   align-items: center;
-  // background-color: brown;
 }
 
 img {
-  width: 68%;
-  height: auto;
+  width: auto;
+  height: 75%;
 }
 
-#space-between {
+.larghezza {
   display: flex;
   justify-content: space-between;
 }
@@ -123,9 +121,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  // debug
-  // background-color: aqua;
 }
 
 .link {
@@ -133,6 +128,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+  // width: 40px;
   font-size: 12px;
   font-weight: 900;
   margin-left: 15px;

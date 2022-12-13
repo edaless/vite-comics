@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 :root {
   /* var(--color-blue) */
   --color-blue: #3482fc;
+  /* var(--h-header) */
+  --h-header: 70px;
 
 }
 

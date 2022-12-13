@@ -50,12 +50,10 @@ import Footer from './components/Footer.vue'
 
 #container {
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background-color: yellow;
   display: flex;
   flex-direction: column;
-  // overflow: scroll;
 }
 </style>
 

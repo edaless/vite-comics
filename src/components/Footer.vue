@@ -190,18 +190,17 @@ export default {
   flex-direction: column;
   margin-top: 10px;
   width: 150px;
+  font-weight: 500;
 
 
-  // debug
-  // background-color: aqua;
   strong {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 20px;
     color: white;
   }
 
   div {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 13px;
     color: #848584;
 
