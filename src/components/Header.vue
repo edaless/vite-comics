@@ -90,7 +90,7 @@ export default {
 
 <style lang="scss" scoped>
 $colorheader : white;
-$blue : #3482fc;
+
 
 #cont {
 
@@ -141,16 +141,16 @@ img {
 
 
   &:hover {
-    color: $blue;
-    border-bottom: 4px solid $blue;
+    color: var(--color-blue);
+    border-bottom: 4px solid var(--color-blue);
     // per non far muovere la scritta:
     border-top: 4px solid $colorheader;
   }
 }
 
 .active {
-  color: $blue;
-  border-bottom: 4px solid $blue;
+  color: var(--color-blue);
+  border-bottom: 4px solid var(--color-blue);
   // per non far muovere la scritta:
   border-top: 4px solid $colorheader;
 
