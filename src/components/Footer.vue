@@ -5,15 +5,20 @@
 </script>
 
 <template>
-  <div id="conta">
+  <div id="cont">
     <div class="larghezza">
       footer
     </div>
   </div>
 </template>
 
+
+
+
+
+
 <style lang="scss" scoped>
-#conta {
+#cont {
   display: flex;
   justify-content: center;
   width: 100%;
