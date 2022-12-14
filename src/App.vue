@@ -43,7 +43,7 @@ import Footer from './components/Footer.vue'
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -51,9 +51,12 @@ import Footer from './components/Footer.vue'
 #container {
 
   width: 100%;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
+
+  // debug
+
+  background-color: yellow;
 }
 </style>
 
