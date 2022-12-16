@@ -27,6 +27,7 @@ import Card from './components/Card.vue'
     <Header />
     <Main />
     <Footer />
+    <Card />
 
 
   </div>

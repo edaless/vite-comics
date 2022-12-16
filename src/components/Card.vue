@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div>ddd</div>
+  <div>hhh</div>
 
 </template>
 
@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 div {
-  width: 200px;
+  width: 100px;
   height: 100px;
   background-color: brown;
 }
