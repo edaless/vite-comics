@@ -1,5 +1,6 @@
 <script>
 
+
 export default {
 
   data() {
@@ -75,6 +76,7 @@ export default {
       <div class="logo">
         <img src="../../public/img/dc-logo.png" alt="">
       </div>
+
 
       <div id="links">
         <div class="link" v-for="(link, index) in links" :class="{ active: activeLink === index }" :key="index"

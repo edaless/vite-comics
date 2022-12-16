@@ -19,6 +19,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
+import Card from './components/Card.vue'
 </script>
 
 <template>
@@ -56,7 +57,7 @@ import Footer from './components/Footer.vue'
 
   // debug
 
-  background-color: yellow;
+  // background-color: yellow;
 }
 </style>
 

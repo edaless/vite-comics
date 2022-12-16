@@ -1,4 +1,5 @@
 <script>
+import Card from './Card.vue';
 
 
 
@@ -14,6 +15,12 @@
       </div>
 
       <div class="middle">
+        <div class="larghezza">
+          dddd
+
+          <Card />
+          <Card />
+        </div>
 
       </div>
 
@@ -36,24 +43,23 @@
 
 }
 
-.larghezza {
-  background-color: aqua;
-}
 
 .up {
   height: 275px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 
 
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 250%;
   }
 }
 
 .middle {
-  height: calc(100% / 3);
-  background-color: rgb(0, 255, 115);
+  height: 500px;
+  background-color: #212121;
 }
 
 .down {
